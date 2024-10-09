@@ -1,5 +1,5 @@
 """
-Various utility functions, for use outside of the `package_name` module.
+Various utility functions, for use outside of the `moonshot` module.
 
 Do not add any functions here that gets imported into the `synthetic_consumers` module.
 If you need to add logic that gets imported into the `synthetic_consumers` module,
@@ -9,7 +9,7 @@ exists, create a new file in this directory.
 These are are utilities that can be used in runner scripts, tests, etc.
 """
 
-from package_name.types import DataRaw, DataClean
+from moonshot.types import DataRaw, DataClean
 
 
 def data_cleaner(data: DataRaw) -> DataClean:
